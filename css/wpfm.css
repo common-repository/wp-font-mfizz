@@ -1,0 +1,50 @@
+/**
+ * WP Font Mfizz
+ *
+ * @since 1.0.0
+ */
+
+.wpfm-iconpicker .iconpicker-popover {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 160px;
+	/*padding: 5px 0;*/
+	list-style: none;
+	font-size: 14px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 4px;
+	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	background-clip: padding-box;
+}
+
+.wpfm-iconpicker .iconpicker-popover .arrow {
+	display: none !important;
+}
+
+.wpfm-iconpicker .iconpicker-item {
+	width: 14px !important;
+	height: 14px !important;
+	padding: 14px !important;
+	font-size: 14px !important;
+	line-height: 1 !important;
+	box-shadow: 0 0 0 1px #ddd !important;
+}
+
+.wpfm-iconpicker input[type="search"] {
+	width: 100%;
+}
+
+.wpfm-iconpicker .iconpicker-popover.popover {
+	width: 242px;
+}
+
+.wpfm-iconpicker .iconpicker-component i {
+	display: none;
+}
